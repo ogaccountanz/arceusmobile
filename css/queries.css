@@ -1,0 +1,175 @@
+@media (max-width: 84em) {
+  .guide-content {
+    padding-left: 2.4rem;
+  }
+  .brush-wrap span {
+    font-size: 3.6rem;
+  }
+  .gameplay-video {
+    width: 75rem;
+    margin: 0 auto;
+  }
+  .image-container {
+    height: 41rem;
+  }
+}
+
+/* Landscape tablet */
+/* Below 1200px */
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .gameplay-video {
+    width: 60rem;
+    border-radius: 5rem;
+  }
+  .image-container {
+    width: 60rem;
+    height: 34rem;
+  }
+}
+
+/* For tablets */
+/* Below 944px */
+@media (max-width: 59em) {
+  .features-container {
+    grid-template-columns: 1fr;
+    row-gap: 4.8rem;
+  }
+
+  .img-starter-pokemon:nth-child(4) {
+    grid-row: 3;
+  }
+
+  .img-starter-pokemon {
+    transform: translateY(3.6rem);
+  }
+  .brush-wrap span {
+    font-size: 2.8rem;
+  }
+  .download-content {
+    grid-template-columns: 1fr;
+    max-width: auto;
+  }
+
+  .download-box {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .gameplay-video {
+    transform: translateY(-36px);
+  }
+  .btn-mobile-nav {
+    display: block;
+  }
+  .main-nav {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.97);
+    transition: all 0.5s ease-in;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  .nav-open .material-icons-outlined.icon-mobile-close {
+    display: block;
+  }
+  .nav-open .material-icons-outlined.icon-mobile-menu {
+    display: none;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 4.8rem;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+  }
+  .footer-top {
+    grid-template-columns: 1fr;
+    gap: 3.6rem;
+  }
+  .gameplay-video {
+    border-radius: 5rem;
+  }
+
+  .image-container {
+    width: 53rem;
+    height: 30rem;
+  }
+  .video-box::after {
+    width: 8.4rem;
+    height: 8.4rem;
+  }
+}
+/* For smaller tablets */
+/* Below 768px */
+
+@media (max-width: 48em) {
+  .brush-wrap {
+    width: 36rem;
+  }
+  .download {
+    padding: 3.2rem;
+    padding-top: 20rem;
+  }
+  .gameplay-video {
+    width: 100%;
+    border-radius: 4.8rem;
+  }
+  .image-container {
+    width: 44rem;
+    height: 25rem;
+  }
+  .img-pokemon {
+    transform: translateZ(30px);
+  }
+}
+
+/* For Phones */
+/* Below 544px */
+
+@media (max-width: 34em) {
+  .section-3d .heading-secondary {
+    font-size: 2.8rem;
+  }
+  .section-3d {
+    padding: 16.8rem 2.4rem 9.2rem 2.4rem;
+  }
+  .guide-grid.grid--2-col {
+    grid-template-columns: 1fr;
+  }
+  .gameplay-video {
+    width: 100%;
+    border-radius: 3rem;
+  }
+  .footer-bottom {
+    gap: 1.4rem;
+  }
+  .footer-bottom a:link,
+  .footer-bottom a:visited {
+    font-size: 1.5rem;
+  }
+  .image-container {
+    width: 37rem;
+    height: 21rem;
+  }
+}

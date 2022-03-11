@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Tillana', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1;
+  font-weight: 400;
+  color: #495057;
+  overflow-x: hidden;
+}
+
+strong {
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+.margin--bot-sm {
+  margin-bottom: 1.2rem;
+}
+.margin--bot-md {
+  margin-bottom: 2.4rem;
+}
+
+.padding--side-sm {
+  padding: 0 2.4rem;
+}
+.padding--bot-md {
+  padding-bottom: 2.4rem;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2-col {
+  grid-template-columns: 1fr 1fr;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.heading-tertiary {
+  font-size: 2.8rem;
+}
+
+.flex {
+  display: flex;
+}

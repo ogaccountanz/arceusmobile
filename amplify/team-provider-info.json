@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-arceusmobile-dev-115448-authRole",
+      "UnauthRoleArn": "arn:aws:iam::170992064938:role/amplify-arceusmobile-dev-115448-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::170992064938:role/amplify-arceusmobile-dev-115448-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-arceusmobile-dev-115448-deployment",
+      "UnauthRoleName": "amplify-arceusmobile-dev-115448-unauthRole",
+      "StackName": "amplify-arceusmobile-dev-115448",
+      "StackId": "arn:aws:cloudformation:us-east-1:170992064938:stack/amplify-arceusmobile-dev-115448/df637840-a101-11ec-bab2-126ba2465e67",
+      "AmplifyAppId": "d31chgy6u0pkvk"
+    }
+  }
+}
